@@ -9,12 +9,12 @@ This project uses CMake locally (Bazel is not installed in this environment).
 **First-time setup:**
 ```bash
 source env.sh                       # Set up PATH for LLVM tools and tutorial-opt
-./build_with_cmake.sh               # Build LLVM/MLIR dependency (one-time, ~30 min)
+./cmake_build.sh               # Build LLVM/MLIR dependency (one-time, ~30 min)
 ```
 
 **Everyday development:**
 ```bash
-./build_test_with_cmake.sh                          # Full configure + build + test
+./cmake_test.sh                          # Full configure + build + test
 cmake --build build-ninja --target tutorial-opt     # Rebuild driver only (fast)
 cmake --build build-ninja --target check-mlir-tutorial  # Run tests only
 ```

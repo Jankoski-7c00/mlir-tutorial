@@ -6,8 +6,8 @@ This local repository is developed with CMake. Core C++ and TableGen code lives 
 
 ## Build, Test, and Development Commands
 
-- `./build_with_cmake.sh`: configure and build the LLVM/MLIR dependency with Ninja.
-- `./build_test_with_cmake.sh`: configure this project, build tutorial targets, and run `check-mlir-tutorial`.
+- `./cmake_build.sh`: configure and build the LLVM/MLIR dependency with Ninja.
+- `./cmake_test.sh`: configure this project, build tutorial targets, and run `check-mlir-tutorial`.
 - `cmake --build build-ninja --target tutorial-opt`: rebuild only the tutorial driver after CMake configuration.
 - `cmake --build build-ninja --target check-mlir-tutorial`: run the MLIR tutorial regression tests.
 - `cmake --build build-ninja --target MLIRMulToAddPasses`: rebuild one pass library while iterating.
