@@ -89,7 +89,7 @@ will not be explained in the articles.
 Checkout the tutorial including the LLVM dependency (submodules):
 
 ```bash
-git clone --recurse-submodules https://github.com/j2kun/mlir-tutorial.git
+git clone --recurse-submodules https://github.com/Jankoski-7c00/mlir-tutorial.git
 cd mlir-tutorial
 ```
 
